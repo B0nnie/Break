@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2929A3221A7A78CA00137735 /* Cubano-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 299399981A797EA20039598A /* Cubano-Regular.otf */; };
+		2929A3241A7A815600137735 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2929A3231A7A815600137735 /* GameData.swift */; };
 		29308A641A792E56006AD05A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29308A631A792E56006AD05A /* AppDelegate.swift */; };
 		29308A661A792E56006AD05A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29308A651A792E56006AD05A /* ViewController.swift */; };
 		29308A691A792E57006AD05A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29308A671A792E57006AD05A /* Main.storyboard */; };
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2929A3231A7A815600137735 /* GameData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
 		29308A5E1A792E56006AD05A /* Break.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Break.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29308A621A792E56006AD05A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29308A631A792E56006AD05A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +91,7 @@
 				299399981A797EA20039598A /* Cubano-Regular.otf */,
 				29308A6C1A792E57006AD05A /* LaunchScreen.xib */,
 				29308A611A792E56006AD05A /* Supporting Files */,
+				2929A3231A7A815600137735 /* GameData.swift */,
 			);
 			path = Break;
 			sourceTree = "<group>";
@@ -197,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2929A3221A7A78CA00137735 /* Cubano-Regular.otf in Resources */,
 				29308A691A792E57006AD05A /* Main.storyboard in Resources */,
 				29308A6E1A792E57006AD05A /* LaunchScreen.xib in Resources */,
 				29308A6B1A792E57006AD05A /* Images.xcassets in Resources */,
@@ -218,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29308A661A792E56006AD05A /* ViewController.swift in Sources */,
+				2929A3241A7A815600137735 /* GameData.swift in Sources */,
 				29308A641A792E56006AD05A /* AppDelegate.swift in Sources */,
 				29308A841A7970B3006AD05A /* LivesView.swift in Sources */,
 			);
